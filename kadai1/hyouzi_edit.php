@@ -19,7 +19,7 @@
 
         $sql='SELECT simei FROM kojin WHERE id=?';
         $stmt=$dbh->prepare($sql);
-        $data[]=$staff_code;
+        $data[]=$hyouzi_id;
         $stmt->execute($data);
 
         $rec=$stmt->fetch(PDO::FETCH_ASSOC);
@@ -37,9 +37,9 @@
 
     ?>
 
-    スタッフ修正<br />
+    個人情報修正<br />
     <br />
-    スタッフコード<br />
+    idコード<br />
     <?php print$hyouzi_id;?>
     <br />
     <br />

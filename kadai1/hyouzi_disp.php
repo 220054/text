@@ -37,12 +37,12 @@
 
     ?>
 
-    スタッフ情報参照<br />
+    個人情報情報参照<br />
     <br />
-    スタッフコード<br />
+    idコード<br />
     <?php print$hyouzi_id;?>
     <br />
-    スタッフ名<br />
+    氏名<br />
     <?php print$hyouzi_simei;?>
     <br />
     <br />

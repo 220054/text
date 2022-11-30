@@ -8,8 +8,8 @@
         
     <?php
 
-    try{
-        $hyouzi_id=$_GET['id'];
+    try {
+        $hyouzi_id=$_GET['hyouziid'];
         
         $dsn='mysql:dbname=shop;host=localhost;charset=utf8';
         $user='root';
@@ -17,7 +17,7 @@
         $dbh=new PDO($dsn,$user,$password);
         $dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
-        $sql='DELETE simei FROM kojin WHERE id=?';
+        $sql='SELECT simei FROM kojin WHERE id=?';
         $stmt=$dbh->prepare($sql);
         $data[]=$hyouzi_id;
         $stmt->execute($data);
@@ -39,11 +39,11 @@
 
     個人情報削除<br />
     <br />
-    ＩＤコード<br />
+    idコード<br />
     <?php print$hyouzi_id;?>
     <br />
     氏名<br />
-    <?php print $hyouzi_simei;?>
+    <?php print$hyouzi_simei;?>
     <br />
     この個人情報を削除してもよろしいですか？<br />
     <br />

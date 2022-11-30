@@ -31,7 +31,7 @@ if(isset($_POST['delete'])==true) {
         exit();
     }
     $hyouzi_id=$_POST['hyouziid'];
-    header('Location: hyouzi_delete.php?staffcode='.$hyouzi_id);
+    header('Location: hyouzi_delete.php?hyouziid='.$hyouzi_id);
     exit();
 }
 
