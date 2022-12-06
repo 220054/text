@@ -5,8 +5,11 @@
         <title>課題１</title>
     </head>
     <body>
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="ng">
         
     スタッフが選択されていません。<br />
     <a href="hyouzi_list.php">戻る</a>
+    </div>
     </body>
 </html>

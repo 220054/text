@@ -5,6 +5,8 @@
         <title>課題１</title>
     </head>
     <body>
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="add">
         <?php
         
         $hyouzi_simei=$_POST["simei"];
@@ -82,5 +84,6 @@
         }
 
         ?>
+        </div>
     </body>
 </html>

@@ -2,26 +2,38 @@
 
 .add {
     color: brown;
-   font-size: 20px;
-   margin-left: 10px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .list {
     color: rgb(103, 123, 235);
-    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .edit {
     color: rgb(99, 131, 34);
-    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .disp {
     color: rgb(119, 118, 50);
-    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .delete {
     color: red;
-    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
 }
+
+.ng {
+    color: rgb(231, 122, 122);
+    text-align: center;
+    font-size: 30px;
+}
+
+

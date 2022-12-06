@@ -5,6 +5,8 @@
         <title>課題１</title>
     </head>
     <body>
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="edit">
         <?php
 
         try{
@@ -53,6 +55,6 @@
     修正しました。<br />
     <br />
     <a href="hyouzi_list.php">戻る</a>
-
+    </div>
     </body>
 </html>
