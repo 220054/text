@@ -36,6 +36,8 @@
     }
 
     ?>
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="delete">
 
     個人情報削除<br />
     <br />
@@ -52,5 +54,6 @@
         <input type="button" onclick="history.back()" value="戻る">
         <input type="submit" value="ＯＫ">
     </form>
+    </div>
     </body>
 </html>

@@ -36,7 +36,8 @@
     }
 
     ?>
-
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="edit">
     個人情報修正<br />
     <br />
     idコード<br />
@@ -61,5 +62,6 @@
         <input type="button" onclick="history.back()" value="戻る">
         <input type="submit" value="ＯＫ">
     </form>
+    </div>
     </body>
 </html>

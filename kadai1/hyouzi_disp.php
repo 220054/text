@@ -36,7 +36,8 @@
     }
 
     ?>
-
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="disp">
     個人情報情報参照<br />
     <br />
     idコード<br />
@@ -49,5 +50,6 @@
     <form>
         <input type="button" onclick="history.back()" value="戻る">
     </form>
+    </div>
     </body>
 </html>

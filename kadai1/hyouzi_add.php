@@ -5,6 +5,8 @@
         <title>課題１</title>
     </head>
     <body>
+    <link href="./hyouzi_add.css" rel="stylesheet">
+    <div class="add">
     個人情報を追加<br />
         <br />
         <form method="post" action="hyouzi_add_check.php">
@@ -24,5 +26,6 @@
             <button type="button" onclick="history.back()">戻る</button>
             <button type="submit">ＯＫ</button>
         </form>
+        </div>
     </body>
 </html>
