@@ -2,38 +2,56 @@
 
 .add {
     color: brown;
-    font-size: 30px;
-    text-align: center;
+    font-size: 25px;
+    border: 1px solid #aaaaaa;
+    padding: 30px;
+    background-color: #f8f8f8;
+}
+
+.text {
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
 }
 
 .list {
     color: rgb(103, 123, 235);
-    text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    border: 1px solid #aaaaaa;
+    padding: 30px;
+    background-color: #f8f8f8;
 }
 
 .edit {
     color: rgb(99, 131, 34);
-    text-align: center;
-    font-size: 30px;
+    border: 1px solid #aaaaaa;
+    padding: 30px;
+    background-color: #f8f8f8;
+    font-size: 25px;
 }
 
 .disp {
     color: rgb(119, 118, 50);
-    text-align: center;
-    font-size: 30px;
+    border: 1px solid #aaaaaa;
+    padding: 30px;
+    background-color: #f8f8f8;
+    font-size: 25px;
 }
 
 .delete {
     color: red;
-    text-align: center;
-    font-size: 30px;
+    border: 1px solid #aaaaaa;
+    padding: 30px;
+    background-color: #f8f8f8;
+    font-size: 25px;
 }
 
 .ng {
     color: rgb(231, 122, 122);
-    text-align: center;
-    font-size: 30px;
+    border: 1px solid #aaaaaa;
+    padding: 30px;
+    background-color: #f8f8f8;
+    font-size: 25px;
 }
 
 

@@ -47,17 +47,17 @@
     <form method="post" action="hyouzi_edit_check.php">
         <input type="hidden" name="id" value="<?php print $hyouzi_id;?>">
         氏名<br />
-        <input type="text" name="simei" style="width: 200px" value="<?php print $hyouzi_simei;?>"><br />
+        <input class="text" type="text" name="simei" style="width: 200px" value="<?php print $hyouzi_simei;?>"><br />
         ふりがなを入力してください。<br />
-        <input type="text" name="hurigana" style="width:200px"><br />
+        <input class="text" type="text" name="hurigana" style="width:200px"><br />
         郵便番号を入力してください。<br />
-        <input type="text" name="yubinbango" style="width:200px"><br />
+        <input class="text" type="text" name="yubinbango" style="width:200px"><br />
         住所を入力してください。<br />
-        <input type="text" name="zyusyo" style="width:200px"><br />
+        <input class="text" type="text" name="zyusyo" style="width:200px"><br />
         電話番号を入力してください。<br />
-        <input type="text" name="denwabango" style="width:200px"><br />
+        <input class="text" type="text" name="denwabango" style="width:200px"><br />
         Ｅメールアドレスを入力してください。<br />
-        <input type="text" name="email" style="width:200px"><br />
+        <input class="text" type="text" name="email" style="width:200px"><br />
         <br />
         <input type="button" onclick="history.back()" value="戻る">
         <input type="submit" value="ＯＫ">
