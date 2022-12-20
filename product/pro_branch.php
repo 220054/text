@@ -21,7 +21,7 @@ if(isset($_POST['edit'])==true) {
         exit();
     }
     $pro_code=$_POST['procode'];
-    header('Location: pro_edit.php?procode='.$spro_code);
+    header('Location: pro_edit.php?procode='.$pro_code);
     exit();
 }
 
