@@ -53,7 +53,7 @@
             print'<input type="hidden" name="code" value="'.$pro_code.'">';
             print'<input type="hidden" name="name"value="'.$pro_name.'">';
             print'<input type="hidden" name="price"value="'.$pro_price.'">';
-            '<input type="hidden" name="gazou_name_old"value="'.$pro_gazou_name_old.'">';
+            print'<input type="hidden" name="gazou_name_old"value="'.$pro_gazou_name_old.'">';
             print'<input type="hidden" name="gazou_name"value="'.$pro_gazou['name'].'">';
             print"<br />";
             print'<input type="button"onclick="history.back()" value="戻る">';

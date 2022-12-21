@@ -25,7 +25,7 @@
         $rec=$stmt->fetch(PDO::FETCH_ASSOC);
         $pro_name=$rec['name'];
         $pro_price=$rec['price'];
-        $pro_gazou_name_old=$res['gazou'];
+        $pro_gazou_name_old=$rec['gazou'];
 
         $dbh=null;
 
@@ -52,9 +52,9 @@
     <br />
     <form method="post" action="pro_edit_check.php" enctype="multipart/form-data">
         <input type="hidden" name="code" value="<?php print $pro_code;?>">
-        <input type="hidden" name="gazou_name_old" value="<?php print$pro_gazou_name_old; ?>">
+        <input type="hidden" name="gazou_name_old" value="<?php print $pro_gazou_name_old; ?>">
         商品名<br />
-        <input type="text" name="name" style="width: 200px" value="<?php print $pro_name;?>"><br />
+        <input type="text" name="name" style="width: 200px" value="<?php print $pro_name; ?>"><br />
         価格<br />
         <input type="text" name="price" style="width: 50px"value="<?php print $pro_price;?>">円<br />
         <br />
